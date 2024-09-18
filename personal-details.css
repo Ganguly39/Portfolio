@@ -1,0 +1,47 @@
+/* Personal Details Section */
+#personal-details {
+    background-color: #e0f7fa;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#personal-details h2 {
+    font-size: 28px;
+    color: #00796b;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box h3 {
+    font-size: 22px;
+    color: #004d40;
+    margin-bottom: 10px;
+}
+
+.box p, .box ul {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.box ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Add hover effects to boxes */
+.box:hover {
+    background-color: #b2ebf2;
+    transform: scale(1.02);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
